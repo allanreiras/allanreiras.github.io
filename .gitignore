@@ -1,0 +1,30 @@
+# Ignorar arquivos gerados pelo Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+
+# Ignorar diretórios do Maven
+target/
+release/
+build/
+.mvn/
+
+# Ignorar arquivos de log
+*.log
+log/
+logs/
+
+# Ignorar arquivos de build do Gradle
+.gradle/
+build/
+
+# Ignorar arquivos gerados pelo Spring Boot
+.spring_boot_rebuild/
+target/
+logs/
